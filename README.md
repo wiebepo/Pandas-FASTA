@@ -1,0 +1,4 @@
+# Pandas-FASTA
+Parse a FASTA file into a pandas DataFrame efficiently.
+Some searching on Stack Overflow and the interwebs did not readily reveal an efficient solution to use Pandas for FASTA file data. Pandas is already a great Python module. I wanted to find the fastest way to get FASTA data into a dataframe with the least number of manipulations. Pandas can open compressed files directly from an FTP site or an S3 bucket, so I focussed on finding a solution that would only use the Pandas module. Perhaps this will allow it have a longer useful life.
+I spent more time than I probably should have chipping away at the number of methods, trying to reduce the syntax, and finding incremental performance gains. Feel free to use it, and please let me know if there is a faster or more efficient way.
